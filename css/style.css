@@ -385,7 +385,7 @@ header .navigation .right-menu .menu-toggler.open {
     }
 
     .classify.section .container .box-container .row {
-        display: block;
+        display: block   ;
     }
 }
 
@@ -666,6 +666,7 @@ header .navigation .right-menu .menu-toggler.open {
 
 .product.section {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 90vh;
@@ -673,7 +674,14 @@ header .navigation .right-menu .menu-toggler.open {
     margin-top: 50px;
 }
 
+.product.section .content h1 {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+
 /* Pagination */
+
 
 .product.section .wrapper .pagination {
     position: absolute;
@@ -730,8 +738,7 @@ header .navigation .right-menu .menu-toggler.open {
 }
 
 .product.section .wrapper h1 { 
-    transform: translate(100px, 50px);
-    overflow: visible;
+    transform: translate(100px, 100px);
 }
 
 @media screen and (max-width: 900px) {

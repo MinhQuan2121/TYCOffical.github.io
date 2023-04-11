@@ -1,1 +1,0 @@
-# TYCOffical.github.io
